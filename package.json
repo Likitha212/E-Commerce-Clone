@@ -1,6 +1,6 @@
 {
   "name": "e-commerence",
-  "homepage": "https://Likitha212.github.io/E-Commerence-Clone/",
+  "homepage": "https://Likitha212.github.io/E-Commerce-Clone/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predepoly": "npm run build",
-    "depoly": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
